@@ -27,5 +27,14 @@ TEST(A_Handler, should_return_sum_when_asked_for) {
     ASSERT_THAT(testee.handle(query), Eq("19"));
 }
 
+//which of the following numbers are primes: 373, 775
+
+//what is 0 plus 13 multiplied by 19
+
+//what is the 15th number in the Fibonacci sequence
+
+//what is 2 multiplied by 12 plus 8
+
+//what is 8 plus 17 multiplied by 7
 
 }
