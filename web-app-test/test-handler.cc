@@ -17,7 +17,7 @@ TEST(A_Handler, should_return_power_calculations_when_asked_for) {
 	Handler testee;
     std::string const query = "what is 1 to the power of 16";
 
-    ASSERT_THAT(testee.handle(query), Eq(""));
+    ASSERT_THAT(testee.handle(query), Eq("16"));
 }
 
 TEST(A_Handler, should_return_sum_when_asked_for) {
