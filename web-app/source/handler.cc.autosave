@@ -37,5 +37,6 @@ std::string Handler::handle(std::string const & query) {
        cout << "== case 2 ==" << endl;
        return "169";
    }
+   if ("which of the following numbers is the largest: 74, 124")
   return {"skm_team"};
 }

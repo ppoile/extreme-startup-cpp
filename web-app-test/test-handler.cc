@@ -10,6 +10,6 @@ TEST(A_Handler, should_return_its_name_when_asked_for) {
   Handler testee;
   std::string const query = "what is your name";
 
-  ASSERT_THAT(testee.handle(query), Eq("Name"));
+  ASSERT_THAT(testee.handle(query), Eq("skm_team"));
 }
 }
